@@ -1055,9 +1055,9 @@ resource_schema "aws_controltower_enabled_baseline" {
 
   # Suppression Reason:
   # Properties with anyOf indicator https://github.com/hashicorp/terraform-provider-awscc/issues/98
-  suppress_resource_generation             = true
-  suppress_singular_data_source_generation = true
-  suppress_plural_data_source_generation   = true
+  // suppress_resource_generation             = true
+  // suppress_singular_data_source_generation = true
+  // suppress_plural_data_source_generation   = true
 }
 
 resource_schema "aws_controltower_enabled_control" {
